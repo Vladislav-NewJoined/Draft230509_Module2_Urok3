@@ -1,11 +1,8 @@
-import java.io.IOException;
-
-//  инфо здесь: https://youtu.be/pV0v_3YRQoM
 public class Draft8_Task2_3_8 {
 //        System.out.println("Задание: \n8.\tвыведите греческий алфавит (коды с 945 по 969) через запятую (а, в, •..)\n\nРешение: ");
 
     //        Пример 1 ППППППППППППППППППППППППППППППППППП
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         for (int i = 945; i<=969; i++) {
             System.out.print((char)i + ", ");
